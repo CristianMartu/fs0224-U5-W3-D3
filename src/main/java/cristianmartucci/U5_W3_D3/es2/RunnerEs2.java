@@ -1,14 +1,13 @@
-package cristianmartucci.U5_W3_D3.Es2;
+package cristianmartucci.U5_W3_D3.es2;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
-
 @Component
-public class Runner implements CommandLineRunner {
+public class RunnerEs2 implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
+        System.out.println("-------------------Es2-----------------------");
         Libro libro = new Libro();
         libro.aggiungiAutore("Cristian Martucci");
         libro.aggiungiAutore("Davide Abbadessa");

@@ -9,6 +9,7 @@ import java.util.Calendar;
 public class RunnerEs1 implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
+        System.out.println("-------------------Es1-----------------------");
         Info info = new Info();
         info.setNome("Mario");
         info.setCognome("Rossi");

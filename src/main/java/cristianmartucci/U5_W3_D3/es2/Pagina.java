@@ -1,4 +1,4 @@
-package cristianmartucci.U5_W3_D3.Es2;
+package cristianmartucci.U5_W3_D3.es2;
 
 public class Pagina implements ComponenteLibro{
 
