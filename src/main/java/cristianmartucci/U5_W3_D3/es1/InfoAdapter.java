@@ -11,7 +11,7 @@ public class InfoAdapter implements DataSource{
 
     @Override
     public String getNomeCompleto() {
-        return info.getNome()+info.getCognome();
+        return info.getNome()+ " " +info.getCognome();
     }
 
     @Override

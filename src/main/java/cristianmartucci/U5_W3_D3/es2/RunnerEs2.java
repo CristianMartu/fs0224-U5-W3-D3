@@ -9,9 +9,9 @@ public class RunnerEs2 implements CommandLineRunner {
     public void run(String... args) throws Exception {
         System.out.println("-------------------Es2-----------------------");
         Libro libro = new Libro();
-        libro.aggiungiAutore("Cristian Martucci");
-        libro.aggiungiAutore("Davide Abbadessa");
-        libro.aggiungiAutore("Alessio Vulpinari");
+        libro.aggiungiAutore("Mario Rossi");
+        libro.aggiungiAutore("Luigi Verdi");
+        libro.aggiungiAutore("Toad Blu");
         libro.setPrezzo(29.33);
 
         Pagina pagina1 = new Pagina(1);
